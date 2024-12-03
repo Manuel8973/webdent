@@ -1,0 +1,375 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+ body {
+     font-family: 'Poppins', sans-serif;
+ }
+
+ :root {
+     --primary-color: #2B95EC;
+     --secondary-color: #1B75BC;
+     --accent-color: #E8F4FE;
+     --text-dark: #2C3E50;
+     --text-light: #7F8C8D;
+ }
+
+ .navbar {
+     padding: 15px 0;
+     transition: all 0.3s ease;
+ }
+
+ .navbar-brand img {
+     width: 60px;
+     height: 60px;
+     transition: all 0.3s ease;
+ }
+
+ .nav-link {
+     font-weight: 500;
+     color: var(--text-dark) !important;
+     padding: 8px 16px !important;
+     transition: all 0.3s ease;
+ }
+
+ .nav-link:hover {
+     color: var(--primary-color) !important;
+ }
+
+ .service-hero {
+     background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),
+                 url('https://th.bing.com/th/id/OIP.IR1MuyyWJmaY9LHRQLoGPwHaE7?rs=1&pid=ImgDetMain');
+     background-size: cover;
+     background-position: center;
+     padding: 120px 0 60px;
+     margin-top: 76px;
+ }
+
+ .service-hero img {
+     border-radius: 20px;
+     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+     transition: transform 0.3s ease;
+ }
+
+ .service-hero img:hover {
+     transform: scale(1.02);
+ }
+
+ .process-card {
+     background: white;
+     border-radius: 15px;
+     padding: 30px;
+     margin: 15px 0;
+     box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+     transition: all 0.3s ease;
+     height: 100%;
+     display: flex;
+     flex-direction: column;
+ }
+
+ .process-card:hover {
+     transform: translateY(-5px);
+     box-shadow: 0 8px 25px rgba(43, 149, 236, 0.15);
+ }
+
+ .process-number {
+     width: 40px;
+     height: 40px;
+     background: var(--primary-color);
+     color: white;
+     border-radius: 50%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-weight: bold;
+     margin-bottom: 20px;
+ }
+
+ .before-after-container {
+     position: relative;
+     border-radius: 15px;
+     overflow: hidden;
+     margin: 15px 0;
+     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+     transition: all 0.3s ease;
+ }
+
+ .before-after-container:hover {
+     transform: translateY(-5px);
+     box-shadow: 0 8px 25px rgba(43, 149, 236, 0.15);
+ }
+
+ .before-after-image {
+     width: 100%;
+     height: 300px;
+     object-fit: cover;
+     transition: transform 0.3s ease;
+ }
+
+ .before-after-container:hover .before-after-image {
+     transform: scale(1.05);
+ }
+
+ .image-label {
+     position: absolute;
+     top: 20px;
+     left: 20px;
+     background: var(--primary-color);
+     color: white;
+     padding: 5px 15px;
+     border-radius: 20px;
+     font-size: 14px;
+     z-index: 1;
+ }
+
+ .benefit-item {
+     display: flex;
+     align-items: flex-start;
+     margin: 20px 0;
+     padding: 20px;
+     background: white;
+     border-radius: 15px;
+     box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+     transition: all 0.3s ease;
+ }
+
+ .benefit-item:hover {
+     transform: translateX(5px);
+     box-shadow: 0 5px 15px rgba(43, 149, 236, 0.1);
+ }
+
+ .benefit-icon {
+     min-width: 50px;
+     height: 50px;
+     background: var(--accent-color);
+     border-radius: 50%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-right: 20px;
+     color: var(--primary-color);
+     font-size: 20px;
+     transition: all 0.3s ease;
+ }
+
+ .benefit-item:hover .benefit-icon {
+     background: var(--primary-color);
+     color: white;
+ }
+
+ .accordion-item {
+     border: none;
+     background: transparent;
+     margin-bottom: 1rem;
+ }
+
+ .accordion-button {
+     background: white;
+     border-radius: 10px !important;
+     padding: 20px;
+     box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+     font-weight: 500;
+     transition: all 0.3s ease;
+ }
+
+ .accordion-button:not(.collapsed) {
+     background: var(--primary-color);
+     color: white;
+     box-shadow: 0 5px 15px rgba(43, 149, 236, 0.15);
+ }
+
+ .accordion-button:focus {
+     border-color: transparent;
+     box-shadow: none;
+ }
+
+ .accordion-button::after {
+     background-size: 1.25rem;
+     transition: all 0.3s ease;
+ }
+
+ .accordion-button:not(.collapsed)::after {
+     filter: brightness(0) invert(1);
+ }
+
+ .accordion-body {
+     background: white;
+     border-radius: 0 0 10px 10px;
+     padding: 20px;
+     color: var(--text-light);
+     line-height: 1.6;
+ }
+
+ .accordion-button:hover {
+     background: var(--accent-color);
+ }
+
+ .accordion-button:not(.collapsed):hover {
+     background: var(--secondary-color);
+ }
+
+ .cta-section {
+     background: var(--accent-color);
+     padding: 80px 0;
+ }
+
+ .btn-primary {
+     background-color: var(--primary-color);
+     border-color: var(--primary-color);
+     padding: 12px 30px;
+     border-radius: 50px;
+     font-weight: 500;
+     transition: all 0.3s ease;
+ }
+
+ .btn-primary:hover {
+     background-color: var(--secondary-color);
+     border-color: var(--secondary-color);
+     transform: translateY(-2px);
+     box-shadow: 0 5px 15px rgba(43, 149, 236, 0.2);
+ }
+
+ @media (max-width: 768px) {
+     .service-hero {
+         padding: 100px 0 50px;
+         margin-top: 66px;
+     }
+
+     .before-after-image {
+         height: 200px;
+     }
+
+     .process-card {
+         margin: 10px 0;
+     }
+
+     .benefit-item {
+         margin: 10px 0;
+     }
+ }
+/* Estilos especif... implantes */
+.implant-step {
+    position: relative;
+    background: white;
+    border-radius: 15px;
+    padding: 30px;
+    margin: 15px 0;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.implant-step:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(43, 149, 236, 0.15);
+}
+
+.implant-step .step-number {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 50px;
+    height: 50px;
+    background: var(--primary-color);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.tech-feature {
+    background: white;
+    border-radius: 15px;
+    padding: 25px;
+    height: 100%;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.tech-feature:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(43, 149, 236, 0.15);
+}
+
+.tech-icon {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.guarantee-item {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    padding: 20px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+}
+
+.guarantee-item:hover {
+    transform: translateX(5px);
+    box-shadow: 0 5px 15px rgba(43, 149, 236, 0.1);
+}
+
+.guarantee-icon {
+    min-width: 60px;
+    height: 60px;
+    background: var(--accent-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    color: var(--primary-color);
+    font-size: 24px;
+    transition: all 0.3s ease;
+}
+
+.guarantee-item:hover .guarantee-icon {
+    background: var(--primary-color);
+    color: white;
+}
+
+.testimonial-card {
+    background: white;
+    border-radius: 15px;
+    padding: 30px;
+    margin: 20px 0;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(43, 149, 236, 0.15);
+}
+
+.testimonial-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.quote-icon {
+    font-size: 3rem;
+    color: var(--accent-color);
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .implant-step {
+        margin: 10px 0;
+    }
+
+    .tech-feature {
+        margin-bottom: 20px;
+    }
+
+    .guarantee-item {
+        margin: 10px 0;
+    }
+}
