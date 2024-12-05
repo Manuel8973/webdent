@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ortodoncia - Clínica Dental</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/ort_dent.css">
+
+</head>
+<body>
+    <!-- Navbar [Igual que antes] -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="https://th.bing.com/th/id/R.89236d95dbb4ee6563645d4be5e8d8c7?rik=MJ46xjaVbAb0Kw&pid=ImgRaw&r=0" 
+                     alt="Logo Clínica Dental" 
+                     class="rounded-circle me-2">
+                <span class="fs-4 fw-bold text-primary">Dra. Dental</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre Mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="service-hero">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold mb-4">Ortodoncia<br>
+                        <span class="text-primary">Sonrisas Perfectas</span>
+                    </h1>
+                    <p class="lead mb-4">Corrige la alineación de tus dientes con tratamientos personalizados utilizando las técnicas más avanzadas en ortodoncia.</p>
+                    <a href="reserva.html?service=ortodoncia" class="btn btn-primary btn-lg px-5 py-3">Agendar Consulta</a>
+                </div>
+                <div class="col-lg-6">
+                    <img src="https://th.bing.com/th/id/R.ea3db15309caaa6041acc925711fbc35?rik=U5TWBxsUKxp1gg&pid=ImgRaw&r=0" 
+                         alt="Ortodoncia" 
+                         class="img-fluid rounded-3 shadow-lg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tipos de Tratamiento -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Tipos de Tratamientos</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="treatment-type">
+                        <img src="https://th.bing.com/th/id/R.ea3db15309caaa6041acc925711fbc35?rik=U5TWBxsUKxp1gg&pid=ImgRaw&r=0" 
+                             alt="Brackets Metálicos">
+                        <div class="treatment-content">
+                            <h4>Brackets Metálicos</h4>
+                            <p>El método tradicional más efectivo para corregir problemas de alineación dental.</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check text-primary me-2"></i>Alta efectividad</li>
+                                <li><i class="fas fa-check text-primary me-2"></i>Económicos</li>
+                                <li><i class="fas fa-check text-primary me-2"></i>Durables</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="treatment-type">
+                        <img src="https://th.bing.com/th/id/R.ea3db15309caaa6041acc925711fbc35?rik=U5TWBxsUKxp1gg&pid=ImgRaw&r=0" 
+                             alt="Brackets Cerámicos">
+                        <div class="treatment-content">
+                            <h4>Brackets Cerámicos</h4>
+                            <p>Alternativa estética que se mimetiza con el color natural de tus dientes.</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check text-primary me-2"></i>Discretos</li>
+                                <li><i class="fas fa-check text-primary me-2"></i>Resistentes</li>
+                                <li><i class="fas fa-check text-primary me-2"></i>Confortables</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="treatment-type">
+                        <img src="https://th.bing.com/th/id/R.ea3db15309caaa6041acc925711fbc35?rik=U5TWBxsUKxp1gg&pid=ImgRaw&r=0" 
+                             alt="Alineadores Invisibles">
+                        <div class="treatment-content">
+                            <h4>Alineadores Invisibles</h4>
+                            <p>La opción más discreta para corregir la posición de tus dientes.</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check text-primary me-2"></i>Removibles</li>
+                                <li><i class="fas fa-check text-primary me-2"></i>Transparentes</li>
+                                <li><i class="fas fa-check text-primary me-2"></i>Cómodos</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proceso de Tratamiento -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Proceso de Tratamiento</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="timeline-item">
+                        <h4>Diagnóstico Inicial</h4>
+                        <p>Evaluación completa de tu dentadura mediante radiografías y modelos 3D para crear un plan de tratamiento personalizado.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h4>Colocación del Tratamiento</h4>
+                        <p>Instalación cuidadosa de los brackets o entrega de tus primeros alineadores, con instrucciones detalladas de uso y cuidado.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h4>Seguimiento Mensual</h4>
+                        <p>Visitas periódicas para ajustes y monitoreo del progreso de tu tratamiento.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h4>Finalización</h4>
+                        <p>Retiro del tratamiento y colocación de retenedores para mantener los resultados a largo plazo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comparativa de Tratamientos -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Comparativa de Tratamientos</h2>
+            <div class="table-responsive">
+                <table class="table comparison-table">
+                    <thead>
+                        <tr>
+                            <th>Características</th>
+                            <th>Brackets Metálicos</th>
+                            <th>Brackets Cerámicos</th>
+                            <th>Alineadores Invisibles</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Visibilidad</td>
+                            <td>Visible</td>
+                            <td>Poco visible</td>
+                            <td>Prácticamente invisible</td>
+                        </tr>
+                        <tr>
+                            <td>Tiempo de tratamiento</td>
+                            <td>18-24 meses</td>
+                            <td>18-24 meses</td>
+                            <td>12-18 meses</td>
+                        </tr>
+                        <tr>
+                            <td>Costo</td>
+                            <td>Económico</td>
+                            <td>Moderado</td>
+                            <td>Premium</td>
+                        </tr>
+                        <tr>
+                            <td>Mantenimiento</td>
+                            <td>Regular</td>
+                            <td>Regular</td>
+                            <td>Mínimo</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Preguntas Frecuentes</h2>
+            <div class="accordion" id="faqAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                            ¿Cuál es la mejor edad para comenzar el tratamiento?
+                        </button>
+                    </h2>
+                    <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Aunque la ortodoncia puede realizarse a cualquier edad, idealmente se recomienda comenzar en la adolescencia temprana. Sin embargo, cada vez más adultos optan por tratamientos ortodónticos con excelentes resultados.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                            ¿Duele usar brackets?
+                        </button>
+                    </h2>
+                    <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Es normal sentir cierta presión o molestia durante los primeros días después de la colocación o ajustes. Esta sensación es temporal y manejable con analgésicos comunes.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                            ¿Cuánto tiempo dura el tratamiento?
+                        </button>
+                    </h2>
+                    <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            La duración varía según cada caso, pero generalmente puede durar entre 18 y 24 meses. Los alineadores invisibles pueden requerir menos tiempo en casos menos complejos.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                            ¿Necesitaré retenedor después del tratamiento?
+                        </button>
+                    </h2>
+                    <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Sí, el uso de retenedor es esencial para mantener los resultados después del tratamiento. Su uso será indicado por el especialista según cada caso particular.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resultados Section -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Resultados Reales</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="before-after-container">
+                        <img src="https://th.bing.com/th/id/R.ea3db15309caaa6041acc925711fbc35?rik=U5TWBxsUKxp1gg&pid=ImgRaw&r=0" 
+                             alt="Antes del tratamiento" 
+                             class="before-after-image">
+                        <span class="image-label">Antes</span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="before-after-container">
+                        <img src="https://th.bing.com/th/id/R.ea3db15309caaa6041acc925711fbc35?rik=U5TWBxsUKxp1gg&pid=ImgRaw&r=0" 
+                             alt="Después del tratamiento" 
+                             class="before-after-image">
+                        <span class="image-label">Después</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Beneficios Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Beneficios de la Ortodoncia</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <i class="fas fa-smile"></i>
+                        </div>
+                        <div>
+                            <h5>Mejor Estética Dental</h5>
+                            <p>Logra una sonrisa perfectamente alineada y aumenta tu confianza.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <i class="fas fa-tooth"></i>
+                        </div>
+                        <div>
+                            <h5>Mejor Higiene</h5>
+                            <p>Dientes alineados son más fáciles de limpiar, reduciendo problemas dentales.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <i class="fas fa-utensils"></i>
+                        </div>
+                        <div>
+                            <h5>Mejor Mordida</h5>
+                            <p>Corrige problemas de mordida y mejora la función masticatoria.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <div>
+                            <h5>Mejor Pronunciación</h5>
+                            <p>Ayuda a corregir problemas del habla causados por mala alineación.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container text-center">
+            <h2 class="mb-4">¿Listo para comenzar tu tratamiento?</h2>
+            <p class="lead mb-4">Agenda una consulta de evaluación y descubre qué tratamiento es el mejor para ti.</p>
+            <a href="reserva.html?service=ortodoncia" class="btn btn-primary btn-lg px-5 py-3">Agendar Consulta</a>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
